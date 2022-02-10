@@ -1,0 +1,31 @@
+{
+  "name": "curltoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Anish Maharjan, Ankit Paudel",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "multer": "^1.4.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

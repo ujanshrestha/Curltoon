@@ -1,0 +1,149 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* custom css */
+
+
+.sideBarContainer{
+  max-width: 20%;
+}
+
+.contentContainer{
+  max-width: 80%;
+}
+.sidebar{
+  height:100vh;
+  padding:10px 20px;
+}
+
+
+
+.ipCardImg{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.searchContainer{
+  width: 100%;
+  height: 63px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+}
+
+.searchContainer input{
+  border: none;
+}
+
+.searchContainer input:focus-visible{
+  outline: none;
+}
+
+.ipStagingContainer{
+  color:#fff;
+}
+
+.serviceCardsContainer {
+  /* width: 100%;
+  max-height: 100vh; */
+  white-space: nowrap;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.outer .cinnerServiceCard {
+  /* width: 24.5%; */
+  background-color: #eee;
+  float: none;
+  /* height: 90%; */
+  margin: 0 0.25%;
+  display: inline-block;
+  /* min-width:auto; */
+  /* zoom: 1; */
+}
+
+.bg-contentbgColor {
+  background-color: #E5E5E5;
+}
+
+.createCard {
+  background-color: '0px 4px 20px rgba(0, 0, 0, 0.1)';
+}
+
+.ipBodyContainer {
+  min-height: 100vh;
+}
+
+
+.landingCoverImage {
+  background: url('/coverImg.png');
+  width: 100%;
+  height:200px;
+  color:#fff;
+}
+
+.landingCardContainer{
+  max-width: 60%;
+}
+
+.registerTopDiv{
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 46.08%;
+  height: 50vh;
+  background-color: #0197e3;
+  color:#fff;
+}
+
+.registerCardContainer{
+  position: absolute;
+  top: 20px;
+  right: 90px;
+  width:25%;
+
+}
+
+.serviceModalSubHeaders{
+  font-size: 12px;
+}
+
+.serviceModalBody{
+  font-size: 14px;
+}
+
+.serviceModalButton{
+  background-color: #E5E5E5;
+  font-size: 14px;
+  padding: 2px 0px 0px 5px;
+  width: 110px;
+  text-align: left;
+}
+
+.entrepreneurSidebarButton{
+  background: #b1c6ff;
+  border-radius: 22px;
+  width:200px
+}

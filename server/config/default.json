@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://curltoon:uscurltoon@cluster0.uhdbj.mongodb.net/curltoon?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
+}
